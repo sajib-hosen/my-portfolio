@@ -6,8 +6,8 @@ import git from './../Images/icons/github.png'
 
 const Footer = () => {
     return (
-        <div style={{backgroundImage: `url(${lily_footer})`, backgroundRepeat: "no-repeat", backgroundSize:"cover", backgroundPosition: "center" }} className='' >
-            <div className='h-96 text-white p-10 bg-black bg-opacity-80 flex justify-center items-center ' >
+        <div id='#end' style={{backgroundImage: `url(${lily_footer})`, backgroundRepeat: "no-repeat", backgroundSize:"cover", backgroundPosition: "center" }} className='' >
+            <div className='h-96 font-poppins text-white p-10 bg-black bg-opacity-80 flex justify-center items-center ' >
                 <div className='w-[900px] mx-auto flex justify-around items-center '>
                     <div className=' text-left w-1/2 ' >
                         <p>Contact:</p>
@@ -17,13 +17,19 @@ const Footer = () => {
                     </div>
                     <div className='flex justify-around items-center w-1/2' >
                         <div className='hover:scale-150 transition-all duration-300 ease-in-out ' >
-                            <img width={40} src={fb} alt="facebook" />
+                            <a href='https://www.facebook.com/sajib.hosen.142' target="_blank" >
+                                <img width={40} src={fb} alt="facebook" />
+                            </a>
                         </div>
                         <div className='hover:scale-150 transition-all duration-300 ease-in-out ' >
-                            <img width={50} src={lin} alt="facebook" />
+                            <a href='https://www.linkedin.com/in/mohammad-sajib-815a29218/' target="_blank" >
+                                <img width={50} src={lin} alt="facebook" />
+                            </a>
                         </div>
                         <div className='hover:scale-150 transition-all duration-300 ease-in-out ' >
-                            <img width={55} src={git} alt="facebook" />
+                            <a href='https://github.com/sajib-hosen' target="_blank" >
+                                <img width={55} src={git} alt="facebook" />
+                            </a>
                         </div>
                     </div>
                 </div>

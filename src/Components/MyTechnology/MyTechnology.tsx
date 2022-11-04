@@ -18,7 +18,7 @@ import muiImg from './../Images/icons/mui.png'
 
 const MyTechnology = () => {
     return (
-        <div id='#myskills' className='h-screen text-white p-10 bg-gradient-to-br from-[#15001a] via-[#3e034a] to-[#401181] flex justify-center items-center ' >
+        <div id='#myskills' className='h-screen font-poppins text-white p-10 bg-gradient-to-br from-[#15001a] via-[#3e034a] to-[#401181] flex justify-center items-center ' >
             <div className=' w-full px-10 ' >
                 <h1 className='text-2xl mb-10 font-bold hover:scale-150 transition-all duration-500 ease-in-out ' >MY SKILLS</h1>
                 <div className=' p-2 mt-4 mx-20 grid grid-cols-5 gap-4 my-auto' >
