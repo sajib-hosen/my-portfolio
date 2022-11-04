@@ -5,6 +5,7 @@ import fb from './../Images/icons/facebook.png'
 import linkedin from './../Images/icons/linkedin.png'
 import gitHub from './../Images/icons/github.png'
 // import {Link} from 
+import { Link } from 'react-scroll';
 
 
 const TopBanner = () => {
@@ -14,7 +15,7 @@ const TopBanner = () => {
 
     return (
         <WaterWave imageUrl={bg_img} dropRadius={25} >
-        {methods => ( <div className='h-screen text-white w-full overflow-x-hidden ' >
+        {methods => ( <div id='#home' className='h-screen text-white w-full overflow-x-hidden ' >
 
             <div className='relative h-full flex justify-center items-center max-w-[1250px] mx-auto ' >
 
@@ -69,10 +70,10 @@ const TopBanner = () => {
             </div>
 
             <div style={{writingMode: "vertical-rl"}} className='rounded-lg overflow-hidden fixed z-70 top-[25%] left-6 flex flex-row bg-black bg-opacity-70 opacity-50 hover:opacity-100 transition-all duration-300 ease-in-out cursor-pointer ' >
-                <p to='#home' onClick={e=>{ setClickCounter(1)}} className={` ${ clickedCounter === 1 ? "opacity-100 text-lime-300" : "opacity-25" } p-3 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>Home</p>
-                <p to='#aboutme' onClick={e=>{ setClickCounter(2)}} className={` ${ clickedCounter === 2 ? "opacity-100 text-lime-300" : "opacity-25" } p-3 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>About Me</p>
-                <p to='#myskills' onClick={e=>{ setClickCounter(3)}} className={` ${ clickedCounter === 3 ? "opacity-100 text-lime-300" : "opacity-25" } p-3 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>My Skills</p>
-                <p to='#myprojects' onClick={e=>{ setClickCounter(4)}} className={` ${ clickedCounter === 4 ? "opacity-100 text-lime-300" : "opacity-25" } p-3 font-bold rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>My Projects</p>
+                <Link smooth spy to='#home' onClick={e=>{ setClickCounter(1)}} className={` ${ clickedCounter === 1 ? "opacity-100 text-lime-300" : "opacity-25" } p-3 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>Home</Link>
+                <Link smooth spy to='#aboutme' onClick={e=>{ setClickCounter(2)}} className={` ${ clickedCounter === 2 ? "opacity-100 text-lime-300" : "opacity-25" } p-3 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>About Me</Link>
+                <Link smooth spy to='#myskills' onClick={e=>{ setClickCounter(3)}} className={` ${ clickedCounter === 3 ? "opacity-100 text-lime-300" : "opacity-25" } p-3 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>My Skills</Link>
+                <Link smooth spy to='#myprojects' onClick={e=>{ setClickCounter(4)}} className={` ${ clickedCounter === 4 ? "opacity-100 text-lime-300" : "opacity-25" } p-3 font-bold rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>My Projects</Link>
             </div>
 
         </div> )}

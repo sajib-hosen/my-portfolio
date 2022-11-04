@@ -16,7 +16,7 @@ import section1 from  './../Images/Projects/adverlo/section1.png'
 
 const MyProjects = () => {
     return (
-        <div className='' id='#myskills' >
+        <div className='' id='#myprojects' >
         
             <h1 className='text-2xl mb-10 font-bold hover:scale-150 transition-all duration-500 ease-in-out mt-10' >MY PROJECTS</h1>
 
