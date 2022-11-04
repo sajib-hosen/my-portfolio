@@ -20,87 +20,87 @@ const MyTechnology = () => {
     return (
         <div className='h-screen text-white p-10 bg-gradient-to-br from-[#15001a] via-[#3e034a] to-[#401181] flex justify-center items-center ' >
             <div className=' w-full px-10 ' >
-                <h1 className='text-2xl mb-5' >My Technology</h1>
+                <h1 className='text-2xl mb-10 font-bold hover:scale-150 transition-all duration-500 ease-in-out ' >MY SKILLS</h1>
                 <div className=' p-2 mt-4 mx-20 grid grid-cols-5 gap-4 my-auto' >
 
-                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-110 transition-all duration-200 ease-linear ' >
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
                         <div >
                             <img width={90} src={reactImg} alt="React JS" />
                         </div>
                         <p className=' mt-2' >React JS</p>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-110 transition-all duration-200 ease-linear ' >
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
                         <div >
                             <img width={60} src={typescriptImg} alt="React JS" />
                         </div>
                         <p className=' mt-2' >TypeScript</p>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-110 transition-all duration-200 ease-linear ' >
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
                         <div >
                             <img width={50} src={reduxImg} alt="React JS" />
                         </div>
                         <p className=' mt-2' >Redux JS</p>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-110 transition-all duration-200 ease-linear ' >
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
                         <div >
                             <img width={70} src={nodejsImg} alt="React JS" />
                         </div>
                         <p className=' mt-2' >Node JS</p>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-110 transition-all duration-200 ease-linear ' >
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
                         <div >
                             <img width={50} src={expressImg} alt="React JS" />
                         </div>
                         <p className=' mt-2' >Express</p>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-110 transition-all duration-200 ease-linear ' >
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
                         <div >
                             <img width={50} src={mongodbImg} alt="React JS" />
                         </div>
                         <p className=' mt-2' >MongoDB</p>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-110 transition-all duration-200 ease-linear ' >
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
                         <div >
                             <img width={50} src={jestImg} alt="React JS" />
                         </div>
                         <p className=' mt-2' >JEST</p>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-110 transition-all duration-200 ease-linear ' >
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
                         <div >
                             <img width={50} src={routerImg} alt="React JS" />
                         </div>
                         <p className=' mt-2' >React Router</p>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-110 transition-all duration-200 ease-linear ' >
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
                         <div >
                             <img width={50} src={firebaseImg} alt="React JS" />
                         </div>
                         <p className=' mt-2' >Firebase</p>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-110 transition-all duration-200 ease-linear ' >
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
                         <div >
                             <img width={50} src={socketImg} alt="React JS" />
                         </div>
                         <p className=' mt-2' >Socket-io</p>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-110 transition-all duration-200 ease-linear ' >
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
                         <div >
                             <img width={50} src={tailwindImg} alt="React JS" />
                         </div>
                         <p className=' mt-2' >Tailwind CSS</p>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-110 transition-all duration-200 ease-linear ' >
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
                         <div >
                             <img width={50} src={muiImg} alt="React JS" />
                         </div>
