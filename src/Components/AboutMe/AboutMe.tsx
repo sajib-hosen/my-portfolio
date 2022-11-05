@@ -16,7 +16,8 @@ const AboutMe = () => {
                         <div className='mt-10  text-lg sm:hidden block' >
                             <div className='flex' >
                                 <button className='hover:scale-110 border-4 border-blue-300 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Hire Me</button>
-                                <button className='hover:scale-110 ml-5 border-4 border-blue-300 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Get Resume</button>
+                                <a target="_blank"  href="https://drive.google.com/file/d/1qqRGytijTwU5AoZf2jT1bKtSDr6rrGJe/view?usp=share_link" ><button className='hover:scale-110 ml-5 border-4 border-blue-300 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Get Resume</button></a>
+                                
                             </div>
                         </div>
 
@@ -33,7 +34,8 @@ const AboutMe = () => {
                         <div className='mt-10  text-lg hidden sm:block' >
                             <div className='flex' >
                                 <button className='hover:scale-110 border-4 border-blue-300 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Hire Me</button>
-                                <button className='hover:scale-110 ml-5 border-4 border-blue-300 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Get Resume</button>
+                                <a  target="_blank"  href="https://drive.google.com/file/d/1qqRGytijTwU5AoZf2jT1bKtSDr6rrGJe/view?usp=share_link" ><button className='hover:scale-110 ml-5 border-4 border-blue-300 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Get Resume</button></a>
+                                
                             </div>
                         </div>
                     </div>
