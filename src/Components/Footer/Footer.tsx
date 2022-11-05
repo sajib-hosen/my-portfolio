@@ -8,14 +8,15 @@ const Footer = () => {
     return (
         <div id='#end' style={{backgroundImage: `url(${lily_footer})`, backgroundRepeat: "no-repeat", backgroundSize:"cover", backgroundPosition: "center" }} className='' >
             <div className='h-96 font-poppins text-white p-10 bg-black bg-opacity-80 flex justify-center items-center ' >
-                <div className='w-[900px] mx-auto flex justify-around items-center '>
-                    <div className=' text-left w-1/2 ' >
+                <div className='w-[900px] mx-auto flex sm:flex-row flex-col justify-around items-center '>
+                    <div className=' text-left sm:w-1/2 ' >
                         <p>Contact:</p>
-                        <p>Mobile: +880 1788 587821 or +880 1400 882121</p>
+                        <p>Mobile: +880 1788 587821</p>
+                        <p>or +880 1400 882121</p>
                         <p>E-mail: sajib.201h@gmail.com</p>
 
                     </div>
-                    <div className='flex justify-around items-center w-1/2' >
+                    <div className='flex justify-around items-center sm:mt-0 mt-5 w-[200px] sm:w-1/2' >
                         <div className='hover:scale-150 transition-all duration-300 ease-in-out ' >
                             <a href='https://www.facebook.com/sajib.hosen.142' target="_blank" >
                                 <img width={40} src={fb} alt="facebook" />

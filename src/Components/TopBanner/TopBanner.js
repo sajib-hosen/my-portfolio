@@ -21,8 +21,8 @@ const TopBanner = () => {
 
                 <div className=' text-left absolute top-32 left-0 px-10 ' >
 
-                    <h2 className='text-4xl  ' >Hi, There !!</h2>
-                    <div className='text-5xl mt-5 flex ' >This is  
+                    <h2 className=' text-xl sm:text-4xl  ' >Hi, There !!</h2>
+                    <div className='text-2xl sm:text-5xl mt-5 flex ' >This is  
                         <div className='flex ml-3 cursor-pointer text-lime-200' >
                             <p className='hover:scale-150 duration-500 transition-all ease-in-out ml-1 ' >S</p>
                             <p className='hover:scale-150 duration-500 transition-all ease-in-out ml-1' >A</p>
@@ -37,7 +37,7 @@ const TopBanner = () => {
                           
                         </div>
                     </div>
-                    <h3 className='mt-5 text-xl' >I'm a Full Stack Web Developer</h3>
+                    <h3 className='mt-5 text-lg sm:text-xl ' >I'm a Full Stack Web Developer</h3>
                     <div className='mt-6 flex justify-start items-center ' >
                         <div >
                             <a href='https://www.facebook.com/sajib.hosen.142' target="_blank" >
@@ -62,19 +62,19 @@ const TopBanner = () => {
 
                 </div>
 
-                <div className='flex font-poppins flex-col text-white text-right justify-end absolute bottom-20 right-0 px-10 w-2/4' >
+                <div className=' flex font-poppins flex-col text-white text-right justify-end absolute bottom-20 sm:right-0 right-10 px-2 sm:px-10 w-2/4' >
                     <h1>Contact</h1>
                     <p>+880 1788 587821</p>
                     <p>sajib.201h@gmail.com</p>
                 </div>
             </div>
 
-            <div style={{writingMode: "vertical-rl"}} className='font-poppins rounded-lg h-[440px] overflow-hidden fixed z-70 top-[calc(50%-225px)] left-6 flex flex-row bg-black bg-opacity-70 opacity-50 hover:opacity-100 transition-all duration-300 ease-in-out cursor-pointer ' >
-                <Link smooth spy to='#home' onClick={e=>{ setClickCounter(1)}} className={` ${ clickedCounter === 1 ? "opacity-100 text-lime-300" : "opacity-25" } p-3 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>Home</Link>
-                <Link smooth spy to='#aboutme' onClick={e=>{ setClickCounter(2)}} className={` ${ clickedCounter === 2 ? "opacity-100 text-lime-300" : "opacity-25" } p-3 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>About Me</Link>
-                <Link smooth spy to='#myskills' onClick={e=>{ setClickCounter(3)}} className={` ${ clickedCounter === 3 ? "opacity-100 text-lime-300" : "opacity-25" } p-3 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>My Skills</Link>
-                <Link smooth spy to='#myprojects' onClick={e=>{ setClickCounter(4)}} className={` ${ clickedCounter === 4 ? "opacity-100 text-lime-300" : "opacity-25" } p-3 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>My Projects</Link>
-                <Link smooth spy to='#end' onClick={e=>{ setClickCounter(5)}} className={` ${ clickedCounter === 5 ? "opacity-100 text-lime-300" : "opacity-25" } p-3 font-bold rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>End</Link>
+            <div style={{writingMode: "vertical-rl"}} className='font-poppins rounded-lg h-[440px] overflow-hidden fixed z-70 top-[calc(50%-225px)] sm:left-6 flex flex-row bg-black bg-opacity-70 opacity-50 hover:opacity-100 transition-all duration-300 ease-in-out cursor-pointer ' >
+                <Link smooth spy to='#home' onClick={e=>{ setClickCounter(1)}} className={` ${ clickedCounter === 1 ? "opacity-100 text-lime-300" : "opacity-25" } p-2 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>Home</Link>
+                <Link smooth spy to='#aboutme' onClick={e=>{ setClickCounter(2)}} className={` ${ clickedCounter === 2 ? "opacity-100 text-lime-300" : "opacity-25" } p-2 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>About Me</Link>
+                <Link smooth spy to='#myskills' onClick={e=>{ setClickCounter(3)}} className={` ${ clickedCounter === 3 ? "opacity-100 text-lime-300" : "opacity-25" } p-2 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>My Skills</Link>
+                <Link smooth spy to='#myprojects' onClick={e=>{ setClickCounter(4)}} className={` ${ clickedCounter === 4 ? "opacity-100 text-lime-300" : "opacity-25" } p-2 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>My Projects</Link>
+                <Link smooth spy to='#end' onClick={e=>{ setClickCounter(5)}} className={` ${ clickedCounter === 5 ? "opacity-100 text-lime-300" : "opacity-25" } p-2 font-bold rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>End</Link>
             </div>
 
         </div> )}
