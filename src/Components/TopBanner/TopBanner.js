@@ -58,7 +58,7 @@ const TopBanner = () => {
 
                     <div className='mt-10' >
                         {/* <button className='border px-3 py-2 rounded-md transition-all duration-300 ease-in-out hover:border-lime-300 hover:text-lime-300 hover:shadow-[5px_5px_30px_4px_rgba(0,0,0,0.56)] hover:shadow-lime-300 ' >Get Resume</button> */}
-                        <a target="_blank"  href="https://drive.google.com/file/d/1qqRGytijTwU5AoZf2jT1bKtSDr6rrGJe/view?usp=share_link"><button className='border px-3 py-2 rounded-md transition-all duration-300 ease-in-out hover:border-lime-300 hover:text-lime-300 hover:shadow-[5px_5px_30px_4px_rgba(0,0,0,0.56)] hover:shadow-lime-300 ' >Get Resume</button></a>
+                        <a target="_blank"  href="https://drive.google.com/file/d/1EaX9i0p8Bgu4sKf_nvT8qAsPSB0AW5yt/view?usp=share_link"><button className='border px-3 py-2 rounded-md transition-all duration-300 ease-in-out hover:border-lime-300 hover:text-lime-300 hover:shadow-[5px_5px_30px_4px_rgba(0,0,0,0.56)] hover:shadow-lime-300 ' >Get Resume</button></a>
                     </div>
 
                 </div>
