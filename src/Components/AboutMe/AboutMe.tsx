@@ -25,11 +25,12 @@ const AboutMe = () => {
 
                     <div className='sm:w-1/2 ' >
 
-                        <h3 className=' mb-6 flex  justify-center sm:justify-start ' >
-                            <p className='hover:scale-110 transition-all duration-300 ease-in-out text-2xl' >Hi, I'm <span className='text-indigo-600' >Sajib</span> Hosen</p>
+                        <h3 className=' mb-6 flex justify-start flex-col text-left  ' >
+                            <p className='transition-all font-bold duration-300 ease-in-out text-3xl' >Hi, I'm <span className='text-indigo-600' >Sajib</span> Hosen</p>
+                            <p className='transition-all text-[#970CC8] mt-2 font-bold duration-300 ease-in-out text-xl' >WEB DEVELOPER</p>
                         </h3>
 
-                        <p className='text-lg text-left ' >I'm a Bangladesh based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent web application that improves the lives of those around me. <span className='text-blue-400 underline cursor-pointer' >...read more</span> </p>
+                        <p className='text-lg text-justify ' >Hard-Working Web Developer With A Flair For Creating Elegant Solutions In The Least Amount Of Time. With A Proven Ability To Adapt To Both Self-Starting And Collaborative Environments While Staying Focused On Achieving High-Quality Results Under Strict Deadlines. Eager To Obtain A Challenging Position At A Prestigious Company That Will Expand My Learning And Builds Upon My Developer Skills.</p>
 
                         <div className='mt-10  text-lg hidden sm:block' >
                             <div className='flex' >

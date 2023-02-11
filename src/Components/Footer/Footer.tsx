@@ -14,6 +14,7 @@ const Footer = () => {
                         <p>Mobile: +880 1788 587821</p>
                         <p>or +880 1400 882121</p>
                         <p>E-mail: sajib.201h@gmail.com</p>
+                        <p>FB: www.facebook.com/sajib.hosen.142</p>
 
                     </div>
                     <div className='flex justify-around items-center sm:mt-0 mt-5 w-[200px] sm:w-1/2' >

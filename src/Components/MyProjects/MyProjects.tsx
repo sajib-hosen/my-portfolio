@@ -29,7 +29,7 @@ const MyProjects = () => {
                         <img className='rounded-lg hover:scale-110 hover:shadow-2xl hover:shadow-indigo-700 transition-all duration-500 ease-in-out shadow-xl shadow-indigo-300 absolute sm:top-56 sm:bottom-auto bottom-52 sm:left-56 left-40 z-10 sm:w-[350px] w-[200px]' src={bcs_book} alt="books" />
 
                         <div className='mt-10 text-lg block sm:hidden absolute bottom-10 right-2' >
-                            <a href='https://illustrious-semolina-241bb3.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-300 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visite</a>
+                            <a href='https://illustrious-semolina-241bb3.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-300 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visit</a>
                         </div>
                     </div>
 
@@ -39,7 +39,7 @@ const MyProjects = () => {
                         <p className='text-lg mt-6' >I worked on the front-end site for the application. I have used React as JS framework and Tailwindcss as CSS framewor.</p>
 
                         <div className='mt-10 text-lg sm:block hidden' >
-                            <a href='https://illustrious-semolina-241bb3.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-300 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visite</a>
+                            <a href='https://illustrious-semolina-241bb3.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-300 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visit</a>
                         </div>
 
                     </div>
@@ -56,7 +56,7 @@ const MyProjects = () => {
                         <p className='text-lg mt-6' >I worked on both front-end and back-end site for this application. I have used React as JS framework, MUI and Tailwindcss as CSS framework, Redux for state management. And for the back-end I have used Express (Node JS) and MongoDB atlas as Database.</p>
 
                         <div className='mt-10 text-lg sm:block hidden ' >
-                            <a href='https://coruscating-faun-e0a53f.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-200 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visite</a>
+                            <a href='https://coruscating-faun-e0a53f.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-200 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visit</a>
                         </div>
                         
                     </div>
@@ -68,7 +68,7 @@ const MyProjects = () => {
                         <img className='rounded-lg hover:scale-110 hover:shadow-2xl hover:shadow-indigo-700 transition-all duration-500 ease-in-out shadow-xl shadow-indigo-300 absolute sm:bottom-20 sm:right-24 bottom-16 right-44 z-40 sm:w-[200px] w-[120px]' src={wp_login} alt="loginPage" />
 
                         <div className='mt-10 text-lg block sm:hidden absolute bottom-10 right-5      ' >
-                            <a href='https://coruscating-faun-e0a53f.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-200 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visite</a>
+                            <a href='https://coruscating-faun-e0a53f.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-200 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visit</a>
                         </div> 
 
                     </div>
@@ -88,7 +88,7 @@ const MyProjects = () => {
                     <img className='rounded-lg hover:scale-110 hover:shadow-2xl hover:shadow-indigo-700 transition-all duration-500 ease-in-out shadow-xl shadow-indigo-300 absolute sm:bottom-40 sm:left-60 bottom-80 left-32 z-20 sm:w-[260px] w-[140px]' src={section1} alt="books" />
 
                     <div className='mt-10 text-lg block sm:hidden absolute bottom-10 right-5' >
-                        <a href='https://neon-tanuki-376c60.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-200 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visite</a>
+                        <a href='https://neon-tanuki-376c60.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-200 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visit</a>
                     </div>
 
                 </div>
@@ -99,7 +99,7 @@ const MyProjects = () => {
                     <p className='text-lg mt-6' >I have used vanila CSS as well as I have use gsap (animation package) which is supper exciting animation packaging for building modern websit.</p>
 
                     <div className='mt-10 text-lg sm:block hidden' >
-                        <a href='https://neon-tanuki-376c60.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-200 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visite</a>
+                        <a href='https://neon-tanuki-376c60.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-200 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visit</a>
                     </div>
 
                 </div>
