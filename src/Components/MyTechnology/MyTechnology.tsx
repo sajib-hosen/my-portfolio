@@ -11,6 +11,9 @@ import routerImg from './../Images/icons/react-router.png'
 import socketImg from './../Images/icons/socket-io.png'
 import tailwindImg from './../Images/icons/Tailwind_CSS.png'
 import muiImg from './../Images/icons/mui.png'
+import nextjsImg from './../Images/icons/nextjs.png'
+import nestjsImg from './../Images/icons/nestjs.png'
+import mysqlImg from './../Images/icons/mysql.png'
 
 
 
@@ -25,6 +28,20 @@ const MyTechnology = () => {
             <div className=' w-full sm:px-10 ' >
                 <h1 className='text-2xl mb-10 font-bold hover:scale-150 transition-all duration-500 ease-in-out ' >MY SKILLS</h1>
                 <div className=' p-2 mt-4 sm:mx-20 grid grid-cols-3 sm:grid-cols-5 gap-2 sm:gap-4 my-auto' >
+
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
+                        <div className='rounded-full bg-white ' >
+                            <img width={55} src={nextjsImg} alt="React JS" />
+                        </div>
+                        <p className=' mt-2' >Next JS</p>
+                    </div>
+
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
+                        <div >
+                            <img width={55} src={nestjsImg} alt="React JS" />
+                        </div>
+                        <p className=' mt-2' >Nest JS</p>
+                    </div>
 
                     <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
                         <div >
@@ -66,6 +83,13 @@ const MyTechnology = () => {
                             <img width={50} src={mongodbImg} alt="React JS" />
                         </div>
                         <p className=' mt-2' >MongoDB</p>
+                    </div>
+
+                    <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >
+                        <div >
+                            <img width={90} src={mysqlImg} alt="React JS" />
+                        </div>
+                        <p className=' mt-2' >MySql</p>
                     </div>
 
                     <div className='flex flex-col justify-center items-center mb-4 hover:scale-125 transition-all duration-300 ease-linear ' >

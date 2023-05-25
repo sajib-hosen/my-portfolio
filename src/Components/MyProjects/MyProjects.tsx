@@ -35,8 +35,8 @@ const MyProjects = () => {
 
                     <div className=' sm:w-1/2 text-left sm:ml-6 px-10 ' >
                         <h1 style={{textShadow: "0 0 3px #F2F515, 0 0 5px #F2F515"}} className='text-3xl font-bold mb-6 text-indigo-400 sm:text-left text-center sm:mt-0 mt-3 '>BCS Joyjatra</h1>
-                        <p className='text-lg' >The BCS Joyjatra which is online learning platform. That makes student prepared for their BCS, Primary Teachers, Bank job exam. This is the first real time project for me. This web site is serving the organization for almost One year without any trouble.</p>
-                        <p className='text-lg mt-6' >I worked on the front-end site for the application. I have used React as JS framework and Tailwindcss as CSS framewor.</p>
+                        <p className='text-lg text-justify' >The BCS Joyjatra which is online learning platform. That makes student prepared for their BCS, Primary Teachers, Bank job exam. This is the first real time project for me. This web site is serving the organization for almost One year without any trouble.</p>
+                        <p className='text-lg text-justify mt-6' >I worked on the front-end site for the application. I have used React as JS framework and Tailwindcss as CSS framewor.</p>
 
                         <div className='mt-10 text-lg sm:block hidden' >
                             <a href='https://illustrious-semolina-241bb3.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-300 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visit</a>
@@ -52,8 +52,8 @@ const MyProjects = () => {
                 <div className='relative flex flex-col sm:flex-row w-full sm:justify-around sm:items-center h-screen max-w-[1250px] mx-auto  ' >
                     <div className='sm:w-1/2 text-left sm:mr-6 px-10 ' >
                         <h1 style={{textShadow: "0 0 3px #F2F515, 0 0 5px #8E44AD"}} className='text-3xl font-bold mb-6 text-indigo-400 sm:text-left text-center mt-5 '>Wholesale Point</h1>
-                        <p className='text-lg ' >This website is for managing store for an organization. This web site is responsible for recording purchas and sales of goods, Indexing individual items, calculating cost and profit, as well as the website will provide you overall report for your store.</p>
-                        <p className='text-lg mt-6' >I worked on both front-end and back-end site for this application. I have used React as JS framework, MUI and Tailwindcss as CSS framework, Redux for state management. And for the back-end I have used Express (Node JS) and MongoDB atlas as Database.</p>
+                        <p className='text-lg text-justify ' >This website is for managing store for an organization. This web site is responsible for recording purchas and sales of goods, Indexing individual items, calculating cost and profit, as well as the website will provide you overall report for your store.</p>
+                        <p className='text-lg text-justify mt-6' >I worked on both front-end and back-end site for this application. I have used React as JS framework, MUI and Tailwindcss as CSS framework, Redux for state management. And for the back-end I have used Express (Node JS) and MongoDB atlas as Database.</p>
 
                         <div className='mt-10 text-lg sm:block hidden ' >
                             <a href='https://coruscating-faun-e0a53f.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-200 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visit</a>
@@ -95,8 +95,8 @@ const MyProjects = () => {
 
                 <div className=' sm:w-1/2 text-left sm:ml-6 px-10 ' >
                     <h1 style={{textShadow: "0 0 3px #F2F515, 0 0 5px #F2F515"}} className='text-3xl font-bold mb-6 text-indigo-400 text-center sm:text-left mt-10 '>Adverlo</h1>
-                    <p className='text-lg' >This is a demo business website. I have created this site for animation practice.</p>
-                    <p className='text-lg mt-6' >I have used vanila CSS as well as I have use gsap (animation package) which is supper exciting animation packaging for building modern websit.</p>
+                    <p className='text-lg text-justify' >This is a demo business website. I have created this site for animation practice.</p>
+                    <p className='text-lg text-justify mt-6' >I have used vanila CSS as well as I have use gsap (animation package) which is supper exciting animation packaging for building modern websit.</p>
 
                     <div className='mt-10 text-lg sm:block hidden' >
                         <a href='https://neon-tanuki-376c60.netlify.app/' target="_black" className='hover:scale-110 border-4 border-blue-200 px-3 py-2 hover:border-black transition-all duration-300 ease-in-out' >Visit</a>
