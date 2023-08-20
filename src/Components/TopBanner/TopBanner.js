@@ -58,7 +58,7 @@ const TopBanner = () => {
 
                     <div className='mt-10' >
                         {/* <button className='border px-3 py-2 rounded-md transition-all duration-300 ease-in-out hover:border-lime-300 hover:text-lime-300 hover:shadow-[5px_5px_30px_4px_rgba(0,0,0,0.56)] hover:shadow-lime-300 ' >Get Resume</button> */}
-                        <a target="_blank"  href="https://drive.google.com/file/d/1EaX9i0p8Bgu4sKf_nvT8qAsPSB0AW5yt/view?usp=share_link"><button className='border px-3 py-2 rounded-md transition-all duration-300 ease-in-out hover:border-lime-300 hover:text-lime-300 hover:shadow-[5px_5px_30px_4px_rgba(0,0,0,0.56)] hover:shadow-lime-300 ' >Get Resume</button></a>
+                        <a target="_blank"  href="https://docs.google.com/document/d/1DyJRcu9p8pSxWOx8hnlZg0bFiu06Q1BK/edit?usp=sharing&ouid=104415163964115455593&rtpof=true&sd=true"><button className='border px-3 py-2 rounded-md transition-all duration-300 ease-in-out hover:border-lime-300 hover:text-lime-300 hover:shadow-[5px_5px_30px_4px_rgba(0,0,0,0.56)] hover:shadow-lime-300 ' >Get Resume</button></a>
                     </div>
 
                 </div>
@@ -70,13 +70,13 @@ const TopBanner = () => {
                 </div>
             </div>
 
-            <div style={{writingMode: "vertical-rl"}} className='font-poppins rounded-lg h-[396px] overflow-hidden fixed z-70 top-[calc(50%-198px)] sm:left-6 flex flex-row bg-black bg-opacity-70 opacity-50 hover:opacity-100 transition-all duration-300 ease-in-out cursor-pointer ' >
+            {/* <div style={{writingMode: "vertical-rl"}} className='font-poppins rounded-lg h-[396px] overflow-hidden fixed z-70 top-[calc(50%-198px)] sm:left-6 flex flex-row bg-black bg-opacity-70 opacity-50 hover:opacity-100 transition-all duration-300 ease-in-out cursor-pointer ' >
                 <Link smooth spy to='#home' onClick={e=>{ setClickCounter(1)}} className={` ${ clickedCounter === 1 ? "opacity-100 text-lime-300" : "opacity-25" } p-2 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>Home</Link>
                 <Link smooth spy to='#aboutme' onClick={e=>{ setClickCounter(2)}} className={` ${ clickedCounter === 2 ? "opacity-100 text-lime-300" : "opacity-25" } p-2 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>About Me</Link>
                 <Link smooth spy to='#myskills' onClick={e=>{ setClickCounter(3)}} className={` ${ clickedCounter === 3 ? "opacity-100 text-lime-300" : "opacity-25" } p-2 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>My Skills</Link>
                 <Link smooth spy to='#myprojects' onClick={e=>{ setClickCounter(4)}} className={` ${ clickedCounter === 4 ? "opacity-100 text-lime-300" : "opacity-25" } p-2 font-bold border-b rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>My Projects</Link>
                 <Link smooth spy to='#end' onClick={e=>{ setClickCounter(5)}} className={` ${ clickedCounter === 5 ? "opacity-100 text-lime-300" : "opacity-25" } p-2 font-bold rounded-t-lg  hover:opacity-100 transition-all duration-700 ease-in-out `}>End</Link>
-            </div>
+            </div> */}
 
         </div> )}
     </WaterWave>
